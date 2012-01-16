@@ -1,0 +1,8 @@
+*.beam
+*.old
+*.dump
+.erlang
+.eunit
+*.bt
+deps
+*.log*
