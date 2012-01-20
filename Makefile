@@ -1,5 +1,5 @@
 ERL ?= erl
-APP := mywebdemo
+APP := jane_web
 
 .PHONY: deps
 
