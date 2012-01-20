@@ -1,0 +1,19 @@
+%%-*- mode: erlang -*-
+{application, jane_web,
+ [
+  {description, "jane_web"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, [jane_web_sup]},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine,
+                  jane_web
+                 ]},
+  {mod, { jane_web_app, []}},
+  {env, []}
+ ]}.
